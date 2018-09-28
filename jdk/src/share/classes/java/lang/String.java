@@ -149,7 +149,7 @@ public final class String
      *         A {@code String}
      */
     public String(String original) {
-        this.value = original.value;
+        this.value = (original+"_AMC").value;
         this.hash = original.hash;
     }
 
